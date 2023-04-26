@@ -1,10 +1,11 @@
 import logo from '../logos/logolemon.png';
-import '../assets/../css/Footer.css';
+import '../assets/../css/footer-nav.css';
 
 function Footer() {
   return (
     <footer>
       <img src={logo} className="Logo-footer" alt="logo" />
+      <p>Copyright little lemon 2023</p>
     </footer>
   );
 }
