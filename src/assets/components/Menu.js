@@ -1,4 +1,4 @@
-// import  from '';
+import '../assets/../css/menu.css';
 
 function Menu() {
     return (

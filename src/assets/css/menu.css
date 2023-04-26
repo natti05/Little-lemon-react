@@ -1,0 +1,78 @@
+main>h2 {
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+    background-color: #E0E0E2;
+}
+
+.food-type {
+    margin-left: 30px;
+}
+
+.menu {
+    padding: 30px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.description {
+    font-style: italic;
+    border-top: 2px solid #495E57;
+}
+
+.food-item {
+    margin: 25px;
+    font-size: 12px;
+}
+
+b {
+    float: right;
+    margin-top: -14px;
+    color: darkcyan;
+}
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+    .container {
+        margin: 0 8px 0 8px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .food-item {
+        width: 28vw;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        margin: 0 8px 0 8px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .food-item {
+        width: 28vw;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .food-item {
+        width: 28vw;
+    }
+    .container {
+        margin: 0 8px 0 8px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
