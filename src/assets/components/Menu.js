@@ -2,10 +2,10 @@ import '../assets/../css/menu.css';
 
 function Menu() {
     return (
-        <main>
+    <main>
         <h2 id="menuid">Menu</h2>
         <div class="container">
-            <section class="menu">
+            <div class="menu">
                 <h3 class="food-type">type 1</h3>
                 <div class="food-item">
                     <div class="label">food1</div>
@@ -22,9 +22,8 @@ function Menu() {
                     <b>$10</b>
                     <div class="description">description</div>
                 </div>
-
-            </section>
-            <section class="menu">
+            </div>
+            <div class="menu">
                 <h3 class="food-type">type 2</h3>
                 <div class="food-item">
                     <div class="label">food4</div>
@@ -41,7 +40,7 @@ function Menu() {
                     <b>$10</b>
                     <div class="description">description</div>
                 </div>
-            </section>
+            </div>
         </div>
     </main>
     );

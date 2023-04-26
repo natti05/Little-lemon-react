@@ -1,4 +1,4 @@
-// import  from '';
+import '../assets/../css/about.css';
 
 function About() {
   return (
@@ -20,7 +20,6 @@ function About() {
                 {/* <iframe src="https://picsum.photos/300/150" sandbox="" style="order: 1"></iframe> */}
             </div>
         </sction>
-
     </main>
   );
 }

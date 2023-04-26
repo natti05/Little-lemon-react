@@ -1,0 +1,73 @@
+div video {
+    margin: 16px;
+    width: -webkit-fill-available;
+}
+
+iframe {
+    margin: 32px;
+    border-block: none;
+}
+
+article {
+    padding: 16px;
+}
+
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+    .about h2 {
+        padding-top: 4rem;
+        font-size: 2em;
+    }
+    div video {
+        width: 50vw;
+    }
+    .about-us {
+        display: flex;
+    }
+    .visit {
+        display: flex;
+        align-items: stretch;
+    }
+}
+
+
+/********** Medium devices only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about h2 {
+        padding-top: 3rem;
+        font-size: 2em;
+    }
+    div video {
+        width: 50vw;
+    }
+    .about-us {
+        display: flex;
+    }
+    .visit {
+        display: flex;
+        align-items: stretch;
+    }
+}
+
+
+/********** Small devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .about h2 {
+        padding-top: 1rem;
+        font-size: 2em;
+    }
+    div video {
+        width: 50vw;
+    }
+    .about-us {
+        display: flex;
+    }
+    .visit {
+        display: flex;
+        align-items: stretch;
+    }
+}

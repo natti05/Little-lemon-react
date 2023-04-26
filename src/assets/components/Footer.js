@@ -1,4 +1,4 @@
-import logo from '../logos/logolemon.png';
+import logo from '../images/logolemon.png';
 import '../assets/../css/footer-nav.css';
 
 function Footer() {

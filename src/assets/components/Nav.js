@@ -1,4 +1,4 @@
-import logo from '../assets/../logos/logohorizontal.png';
+import logo from '../assets/../images/logohorizontal.png';
 import '../assets/../css/footer-nav.css';
 import Homepage from './Homepage';
 import About from './About';
@@ -7,7 +7,6 @@ import { Routes, Route, Link } from "react-router-dom";
 
 function Nav() {
   return (
-  <section>
     <header>
       <div className='logo' >
          <img src={logo} className="head-logo" alt="logo" />
@@ -17,13 +16,12 @@ function Nav() {
         <Link to="/menu" className="nav-item">Menu</Link>
         <Link to="/about" className="nav-item">About</Link>
       </nav>
-    </header>
       <Routes> 
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
-  </section>
+    </header>
     
   );
 }
