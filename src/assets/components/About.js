@@ -12,17 +12,17 @@ function About() {
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </card>
-                <video autoPlay muted>
+                <video autoPlay muted loop>
                      <source src={video} type="video/mp4"/>
                 </video>
                 
             </div>
             <div class="visit">
-                {/* <iframe src="https://picsum.photos/300/150" sandbox="" style="order: 1"></iframe> */}
-                <card>
+                <card style={{order: 2}}>
                     <h2>You can also visit them</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </card>
+                 <iframe src="https://picsum.photos/300/150" title="myFrame" sandbox="" style={{order: 1}}></iframe>
             </div>
         </div>
     </main>
