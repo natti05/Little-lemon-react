@@ -3,6 +3,7 @@ import '../assets/../css/footer-nav.css';
 import Homepage from './Homepage';
 import About from './About';
 import Menu from './Menu';
+import Reservation from './Reservation';
 import { Routes, Route, Link } from "react-router-dom";
 
 function Nav() {
@@ -14,11 +15,13 @@ function Nav() {
       <nav>
         <Link to="/#" className="nav-item">Home</Link>
         <Link to="/menu" className="nav-item">Menu</Link>
+        <Link to="/reservation" className="nav-item">Reservation</Link>
         <Link to="/about" className="nav-item">About</Link>
       </nav>
       <Routes> 
         <Route path="/" element={<Homepage />}></Route>
         <Route path="/menu" element={<Menu />}></Route>
+        <Route path="/reservation" element={<Reservation />}></Route>
         <Route path="/about" element={<About />}></Route>
       </Routes>
     </header>
