@@ -4,8 +4,8 @@ import { Formik } from 'formik';
 function Reservation() {
     
     return (
-        <div>
-            <h1>Book Now</h1>
+    <div className='booking'>
+        <div><h1>Book Now</h1></div> 
      <Formik
        initialValues={{ }}
        onSubmit={(values, actions) => {
@@ -17,7 +17,7 @@ function Reservation() {
      >
        {props => (
       
-         <form className='booking'onSubmit={props.handleSubmit}>
+         <form onSubmit={props.handleSubmit}>
          <label for="res-date">Choose date</label>
          <input type="date" id="date"
           onChange={props.handleChange}
@@ -52,7 +52,7 @@ function Reservation() {
             <option>Anniversary</option>
          </select>
          {props.errors.date && <div id="feedback">{props.errors.date}</div>}
-           <button type="submit">Submit</button>
+           <button type="submit" className='submit-button'>Submit</button>
       </form>
        )}
      </Formik>
